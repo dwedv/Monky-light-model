@@ -14,6 +14,8 @@ struct Game::Private { // P-IMPL 模式
     GLProgram program;
 };
 
+//Nothing
+
 Game::Game() : m_private(std::make_unique<Private>()) {}
 
 Game::~Game() = default;
